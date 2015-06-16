@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Device IO on Linux/OSGI_ARCH
+Bundle-Name: Device IO on Linux/OSGI_ARCH
+Bundle-Version: DIO_VERSION-BUILD_NUMBER
+Bundle-NativeCode: lib/libdio.so;osname=Linux;processor=OSGI_ARCH
+Specification-Title: Device I/O 
+Specification-Version: DIO_VERSION
+Specification-Vendor: Oracle Corporation 
+Implementation-Title: Device IO on Linux/OSGI_ARCH
+Implementation-Version: DIO_VERSION-BUILD_NUMBER
+Implementation-Vendor: Oracle Corporation
+Export-Package: jdk.dio, jdk.dio.generic, jdk.dio.spibus, jdk.dio.gpio, jdk.dio.i2cbus, jdk.dio.spi, jdk.dio.uart
